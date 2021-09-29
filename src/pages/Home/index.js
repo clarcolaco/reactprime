@@ -62,7 +62,7 @@ function Home() {
             
             
             
-            const nowList = getListMovies(10, nowData.data.results);
+            const nowList = getListMovies(20, nowData.data.results);
             const popularList = getListMovies(5, popularData.data.results);
             const topList = getListMovies(5, topData.data.results);
             
