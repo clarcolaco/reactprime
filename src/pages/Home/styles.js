@@ -1,6 +1,7 @@
 import styled from "styled-components/native";
 export const Container = styled.SafeAreaView`
 
+
     background-color: #141a29;
     flex: 1;
     padding: 4px 0;
@@ -41,4 +42,31 @@ export const SearchButton = styled.TouchableOpacity`
     
     
 
+`;
+
+export const Title = styled.Text`
+    padding-top: 20px;
+    padding-bottom: 8px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+    padding-left: 14px;
+    padding-right: 14px;
+
+`;
+export const BannerButton = styled.TouchableOpacity`
+
+
+`;
+export const Banner = styled.Image`
+    height: 150px;
+    border-radius: 8px;
+    margin: 0 14px;
+
+
+`;
+
+export const SliderMovie = styled.FlatList`
+    height: 250px;
+    padding: 0 14px;
 `;

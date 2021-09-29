@@ -1,15 +1,16 @@
 import React from 'react';
 import { Container, MenuButton, Title } from './styles';
 import { Feather } from '@expo/vector-icons';
-import { NavigationContainer, useNavigation } from '@react-navigation/native';
+import { useNavigation } from '@react-navigation/native';
 
 
 
 function Header({ title }) {
+    const navigation = useNavigation();
 
     return (
         <Container>
-            <MenuButton onPress={() => NavigationContainer.openDrawer()}>
+            <MenuButton onPress={() => navigation.openDrawer()}>
 
                 <Feather
                     name="menu"
@@ -18,9 +19,7 @@ function Header({ title }) {
                 />
 
             </MenuButton>
-
-            
-
+            <Title>{title}</Title>
         </Container>
 
 

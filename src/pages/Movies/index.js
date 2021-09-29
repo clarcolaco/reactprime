@@ -1,11 +1,12 @@
 import React from "react";
-import { View, Text } from 'react-native';
+import { View } from 'react-native';
+import Header from "../../components/Header";
 
 function Movies() {
 
     return (
         <View>
-            <Text>Movies</Text>
+           <Header title="Movies"/>
         </View>
 
     )

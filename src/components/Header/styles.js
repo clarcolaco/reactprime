@@ -1,7 +1,9 @@
 import styled from 'styled-components';
 
 export const Container = styled.View`
-
+    margin-top: 8px;
+    padding-top: 22px;
+    padding-bottom: 10px;
     height: 70px;
     flex-direction: row;
     align-items: center;
@@ -11,12 +13,9 @@ export const Container = styled.View`
 
 
 export const MenuButton = styled.TouchableOpacity`
-
     height: 70px;
     align-items:center;
-    flex-direction: row;
-    
-
+    flex-direction: row;  
 `;
 
 export const Title = styled.Text`
